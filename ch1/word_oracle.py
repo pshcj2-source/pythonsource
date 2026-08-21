@@ -4,9 +4,9 @@ import random
 
 # word.txt 읽어서
 words = []
-with open("./word.txt","r",encoding="utf-8") as f:
+with open("./word.txt","r",encoding="utf-8") as f:  #모듈은 가상환경(.venv)에서 가동되서 ch1폴더를 지정해줘야함. 현재 경로는 C:\source\pythonsource> .ipynb확장자는 자동으로 찾아주는데 .py는 아니라서 폴더 상세하게 지정
     for word in f:
-        words.append(word.strip())
+        words.append(word.strip())  # strip : 공백/엔터 제거
 
 # print(words)
 start = time.time()
