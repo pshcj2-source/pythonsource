@@ -18,7 +18,8 @@ req = urllib.request.Request(
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                       "AppleWebKit/537.36 (KHTML, like Gecko) "
                       "Chrome/124.0.0.0 Safari/537.36"
-    }
+    }  # header는 대상 사이트 들어가서 F12키 누른 후 Network에서 Name에 있는 리스트 중 하나를 클릭 후 
+       # Headers 탭 아래 User-Agent 부분을 참고하면 됨
 )
 
 mem = urllib.request.urlopen(req)
