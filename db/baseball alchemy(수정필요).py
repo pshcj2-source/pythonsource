@@ -122,3 +122,4 @@ with oracledb.connect(user="python_user",password="54321",dsn="localhost/xe") as
         conn.commit()
 
 print("기록이 저장되었습니다.")
+

@@ -33,7 +33,7 @@ referer: "어떤 경로를 통해 이 웹사이트에 접속했는지"를 알려
 외부 프로그램의 직접 접근 의심을 줄여주는 역할을 합니다.'''
 
 # 주식요청 url
-url="http://finance.daum.net/api/serch/ranks?limit=10"
+url="http://finance.daum.net/api/search/ranks?limit=10"
 # 요청
 res=req.urlopen(req.Request(url, headers=headers)).read().decode('utf- 8')
 #print('res: ',res)
