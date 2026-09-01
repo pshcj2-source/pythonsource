@@ -20,19 +20,19 @@ print(df)
 
 
 # 3. head() : 기본값은 5
-print("n\ === head(3) : 상위 3개만 보기 ===")
+print("\n === head(3) : 상위 3개만 보기 ===")
 print(df.head(3))
 
 # 4. info(): 컬럼별 분석(데이터 타입, 결측치 개수, 메모리 사용량)
-print("n\ === info() : 데이터 구조 보기 ===")
+print("\n === info() : 데이터 구조 보기 ===")
 df.info()
 
 # 5. describe(): 숫자 컬럼의 통계 요약(최대,최소,중간,평균,카운트 등)
-print("n\ === describe() : 숫자 컬럼의 통계 요약 ===")
+print("\n === describe() : 숫자 컬럼의 통계 요약 ===")
 print(df.describe())
 
 # 6. 컬럼 하나만 뽑아보기 (Series 형태로 반환)
-print("n\ === '최고점수' 컬럼만 보기 ===")
+print("\n === '최고점수' 컬럼만 보기 ===")
 print(df["최고점수"])
 print("타입:", type(df["최고점수"]))
 
